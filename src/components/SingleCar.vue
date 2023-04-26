@@ -3,8 +3,8 @@
         <h2>{{ car.car_name }}</h2>
         <h2>{{ car.car_price }}</h2>
         <h2>{{ car.car_model }}</h2>
-        <h2>{{ car.car_manufacture_date }}</h2>
-        <h2>{{ car.car_reference_url }}</h2>
+        <h2>{{ car.manufacture_date }}</h2>
+        <a :href="car.reference_url" target="_blank">{{ car.reference_url }}</a>
     </div>
 </template>
 

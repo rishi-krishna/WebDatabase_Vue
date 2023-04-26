@@ -1,5 +1,5 @@
 <template>
-    <div v-for="car of carDetails.carDetails" :key="car._id" >
+    <div v-for="car of carDetails.CarDetails" :key="car._id" >
        <SingleCar :car=car />
     </div>
 </template>
