@@ -13,6 +13,7 @@ import CarBox from './components/CarBox.vue';
 export default {
   name: 'App',
 
+  
   // Step 2: Register the components
   components: {
     MyHeader,
