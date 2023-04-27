@@ -1,7 +1,7 @@
 <template>
     <div class="single-car">
         <h2>{{ car.car_name }}</h2>
-        <p class="car-info">Price: {{ car.car_price }}</p>
+        <p class="car-info">Price: {{ car.car_price }}$</p>
         <p class="car-info">Model: {{ car.car_model }}</p>
         <p class="car-info">Manufacture Date: {{ car.manufacture_date }}</p>
         <a :href="car.reference_url" target="_blank" class="car-link">Reference</a>
