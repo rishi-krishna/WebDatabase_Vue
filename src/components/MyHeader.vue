@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>{{ CompanyTitle }}</h1>
+        <br>
         <h4>{{ Manager }}</h4>
     </div>
 </template>
